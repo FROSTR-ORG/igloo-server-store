@@ -16,7 +16,8 @@ license: MIT
 releaseNotes: |
   - Umbrel packaging preview build.
 path: ""
-defaultPassword: $APP_PASSWORD
+defaultUsername: ""
+defaultPassword: ""
 tor: true
 port: 8002
 icon: ./assets/icon.png
