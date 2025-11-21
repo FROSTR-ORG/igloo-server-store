@@ -15,7 +15,7 @@ support: https://github.com/FROSTR-ORG/igloo-server/issues
 license: MIT
 releaseNotes: |
   - Umbrel packaging preview build.
-path: "/"
+path: "/umbrel_/apps/igloo-server"
 defaultUsername: ""
 defaultPassword: ""
 tor: true
