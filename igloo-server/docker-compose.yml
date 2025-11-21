@@ -12,7 +12,7 @@ services:
       TRUST_PROXY: "true"
       HOST_NAME: 0.0.0.0
       HOST_PORT: "8002"
-      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-http://umbrel.local,https://umbrel.local}
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-http://umbrel.local,https://umbrel.local,http://umbrel.local:8002,https://umbrel.local:8002}
     volumes:
       - ${APP_DATA_DIR}/data:/app/data
     healthcheck:
