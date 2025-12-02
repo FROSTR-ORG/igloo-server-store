@@ -20,10 +20,12 @@ defaultUsername: ""
 defaultPassword: ""
 tor: true
 port: 8002
-icon: ./assets/icon.png
+icon: https://plebdevs-bucket.nyc3.cdn.digitaloceanspaces.com/images/frostr/icon-0.png
 gallery:
-  - ./assets/gallery/login.png
-  - ./assets/gallery/signer.png
-  - ./assets/gallery/api-keys.png
-  - ./assets/gallery/nip46.png
+  - https://plebdevs-bucket.nyc3.cdn.digitaloceanspaces.com/images/frostr/igloo-server/signer.png
+  - https://plebdevs-bucket.nyc3.cdn.digitaloceanspaces.com/images/frostr/igloo-server/nip46.png
+  - https://plebdevs-bucket.nyc3.cdn.digitaloceanspaces.com/images/frostr/igloo-server/login.png
+  - https://plebdevs-bucket.nyc3.cdn.digitaloceanspaces.com/images/frostr/igloo-server/api-keys.png
+  - https://plebdevs-bucket.nyc3.cdn.digitaloceanspaces.com/images/frostr/igloo-server/event-log.png
+  - https://plebdevs-bucket.nyc3.cdn.digitaloceanspaces.com/images/frostr/igloo-server/configure.png
 dependencies: []
