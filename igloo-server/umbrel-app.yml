@@ -9,7 +9,7 @@ description: |
   It runs in database mode by default, offering a built-in ephemeral relay, rate limiting,
   and a guided onboarding flow for secure Nostr signing.
 
-  Login with the admin credentials shown below to access the admin dashboard.
+  Use the Admin Secret shown below during setup to create your account.
 developer: FROSTR
 website: https://github.com/FROSTR-ORG/igloo-server
 repo: https://github.com/FROSTR-ORG/igloo-server
@@ -18,7 +18,7 @@ license: MIT
 releaseNotes: |
   - Umbrel packaging preview build.
 path: "/"
-defaultUsername: "admin"
+defaultUsername: "Admin Secret"
 defaultPassword: "$APP_PASSWORD"
 tor: true
 port: 8002
