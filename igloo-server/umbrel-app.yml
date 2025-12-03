@@ -8,6 +8,8 @@ description: |
   Igloo Server packages the full FROSTR multi-user signing experience for Umbrel.
   It runs in database mode by default, offering a built-in ephemeral relay, rate limiting,
   and a guided onboarding flow for secure Nostr signing.
+
+  Login with the admin credentials shown below to access the admin dashboard.
 developer: FROSTR
 website: https://github.com/FROSTR-ORG/igloo-server
 repo: https://github.com/FROSTR-ORG/igloo-server
@@ -16,8 +18,8 @@ license: MIT
 releaseNotes: |
   - Umbrel packaging preview build.
 path: "/"
-defaultUsername: ""
-defaultPassword: ""
+defaultUsername: "admin"
+defaultPassword: "$APP_PASSWORD"
 tor: true
 port: 8002
 icon: https://plebdevs-bucket.nyc3.cdn.digitaloceanspaces.com/images/frostr/icon-0.png
