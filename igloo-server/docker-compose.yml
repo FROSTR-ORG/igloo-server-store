@@ -1,6 +1,6 @@
 services:
   igloo:
-    image: ghcr.io/frostr-org/igloo-server:umbrel-dev
+    image: ghcr.io/frostr-org/igloo-server:umbrel-dev@sha256:ee82db8d861fc6dd2d147b95e5a846676085aff2f1872e604a54ca198b801765
     restart: unless-stopped
     environment:
       ADMIN_SECRET: ${APP_PASSWORD:?set by Umbrel}
@@ -25,9 +25,8 @@ services:
 
   app_proxy:
     environment:
-      # If id: igloo  → igloo_igloo_1
-      # If id: igloo-server → igloo-server_igloo_1
-      APP_HOST: igloo
+      # <app-id>_<service-name>_1 = igloo-server_igloo_1
+      APP_HOST: igloo-server_igloo_1
       APP_PORT: "8002"
       PROXY_AUTH_WHITELIST: /api/*,/api/docs/*,/api/events/*
     depends_on:

@@ -2,7 +2,7 @@ manifestVersion: 1
 id: igloo-server
 category: social
 name: Igloo Server
-version: 0.0.0-umbrel-dev
+version: 0.0.0-umbrel-dev2
 tagline: Multi-user FROSTR signing server with persistent relay.
 description: |
   Igloo Server packages the full FROSTR multi-user signing experience for Umbrel.
