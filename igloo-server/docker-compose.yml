@@ -14,7 +14,7 @@ services:
       HOST_PORT: "8002"
       ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-http://umbrel.local,https://umbrel.local,http://umbrel.local:8002,https://umbrel.local:8002}
     volumes:
-      - ${APP_DATA_DIR}/data:/app/data
+      - ${APP_DATA_DIR}:/app/data
     healthcheck:
       test: ["CMD-SHELL", "curl -fsS http://localhost:8002/api/status || exit 1"]
       interval: 30s
