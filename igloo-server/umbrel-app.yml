@@ -18,8 +18,8 @@ license: MIT
 releaseNotes: |
   - Umbrel packaging preview build.
 path: "/"
-defaultUsername: "Admin Secret"
-defaultPassword: "$APP_PASSWORD"
+defaultUsername: ""
+defaultPassword: ""
 tor: true
 port: 8002
 icon: https://plebdevs-bucket.nyc3.cdn.digitaloceanspaces.com/images/frostr/icon-0.png
