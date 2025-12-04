@@ -18,7 +18,7 @@ This store hosts the Umbrel package for **Igloo Server**, the multi-user FROSTR 
 - `ADMIN_SECRET` comes from Umbrel’s generated app password
 - `DB_PATH=/app/data/igloo.db`
 - `HOST_PORT=8002`
-- `ALLOWED_ORIGINS` prefilled for `umbrel.local` (HTTP/HTTPS)
+- `ALLOWED_ORIGINS` defaults to `@self` (auto-allow the host you connect through) plus `umbrel.local` (HTTP/HTTPS)
 
 ### Image tag
 The store tracks the rolling tag `ghcr.io/frostr-org/igloo-server:umbrel-dev`. When a new build is published, reinstall the app (or `docker pull` the tag) to pick it up. Hard-refresh your browser if the UI looks stale.

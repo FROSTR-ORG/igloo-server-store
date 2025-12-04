@@ -13,7 +13,8 @@ services:
       TRUST_PROXY: "true"
       HOST_NAME: 0.0.0.0
       HOST_PORT: "8002"
-      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-http://umbrel.local,https://umbrel.local,http://umbrel.local:8002,https://umbrel.local:8002}
+      # @self auto-allows the host users actually connect through (LAN IP, Tor onion, custom domain)
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-@self,http://umbrel.local,https://umbrel.local,http://umbrel.local:8002,https://umbrel.local:8002}
     volumes:
       - ${APP_DATA_DIR}:/app/data
     healthcheck:
