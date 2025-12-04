@@ -1,6 +1,6 @@
 services:
   igloo:
-    image: ghcr.io/frostr-org/igloo-server:umbrel-dev4@sha256:104733e51d250c6aa5eff7c1223f8f6343e8939cba29162551a1fc8ffa9a73ce
+    image: ghcr.io/frostr-org/igloo-server:umbrel-dev
     restart: unless-stopped
     environment:
       ADMIN_SECRET: ${APP_PASSWORD:?set by Umbrel}
