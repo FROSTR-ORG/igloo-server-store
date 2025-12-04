@@ -8,12 +8,12 @@ description: |
   Igloo Server packages the full FROSTR multi-user signing experience for Umbrel.
   It runs in "database mode" by default, with a simple elegant web UI and a fully featured API.
 
-  Configure the signer with your share + group credential and connect to other FROSTR signers over Nostr.
-  View a full event log in the UI for all signing and peer activity.
-  Connect to multiple Nostr clients via nostr connect (NIP-46) and set permissions per connection.
-  Issue, track, and revoke API keys for external clients.
-  Tune rate limiting, session and signing timeouts, CORS origins, and node restart/backoff (retries, delays, backoff multiplier) in Advanced Settings.
-  Relays are managed per-user in database mode so each signer can keep their own Nostr relay list.
+  - Configure the signer with your share + group credential and connect to other FROSTR signers over Nostr.
+  - View a full event log in the UI for all signing and peer activity.
+  - Connect to multiple Nostr clients via nostr connect (NIP-46) and set permissions per connection.
+  - Issue, track, and revoke API keys for external clients.
+  - Tune rate limiting, session and signing timeouts, CORS origins, and node restart/backoff (retries, delays, backoff multiplier) in Advanced Settings.
+  - Relays are managed per-user in database mode so each signer can keep their own Nostr relay list.
 
   On Umbrel, the admin secret is auto-provisioned and validation is skipped, so you can go straight
   to creating your admin account. The Admin Secret is still visible in the Configure page if you need
