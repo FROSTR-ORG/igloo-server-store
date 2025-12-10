@@ -25,9 +25,9 @@ services:
       start_period: 20s
 
   app_proxy:
+    image: ${APP_PROXY_IMAGE:-ghcr.io/getumbrel/umbrel-app-proxy:latest}
     environment:
-      # <app-id>_<service-name>_1 = igloo-server_igloo_1
-      APP_HOST: igloo-server_igloo_1
+      APP_HOST: igloo
       APP_PORT: "8002"
       PROXY_AUTH_WHITELIST: /api/*,/api/docs/*,/api/events/*
     depends_on:
