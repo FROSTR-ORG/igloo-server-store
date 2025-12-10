@@ -2,7 +2,7 @@ manifestVersion: 1
 id: igloo-server
 category: social
 name: Igloo Server
-version: 0.0.0-umbrel-dev
+version: 1.1.0
 tagline: Multi-user FROSTR signer with API keys, rate limiting, and NIP-46 nostr connect.
 description: |
   Igloo Server packages the full FROSTR multi-user signing experience for Umbrel.
